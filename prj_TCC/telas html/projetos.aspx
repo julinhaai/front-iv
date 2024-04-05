@@ -6,31 +6,11 @@
     <meta charset='utf-8'>
     <title>Ideias Vivas</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" type="text/css" href="navbar.css" />
     <link rel ="stylesheet" type="text/css" href="projetos.css" />
     <script src='script.js'></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header  class="header">
-        <a href="#" class="logo"><img src="img/logo-branca-removebg.png" />Ideias Vivas</a>
-
-        <input type="checkbox" id="check" />
-        <label for="check" class="icons">
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-x' id="close-icon"></i>
-        </label>
-        
-        <nav class="navbar">
-
-            <a href="inicio.aspx" style="--i:0;">Início</a>
-            <a href="projetos.aspx" style="--i:1;">Projetos</a>
-            <a href="suporte.aspx"style="--i:2;">Suporte</a>
-            <a href="sobre.aspx" style="--i:3;">Sobre Nós</a>
-            <a href="admin.aspx" style="--i:4;">Minha Área</a>
-
-        </nav>
-    </header>
     <!--parte de projetos-->
     <div class="container">
         <form class="filter" id="form1">
@@ -74,6 +54,10 @@
         <div class="countResults">
             Foram encontrados <b id="count">5</b> Resultados
         </div>
+        <div id="list">
+           <div class="item"></div>
+        </div>
     </div>
+<script src="projetos.js"></script>
 </body>
 </html>
