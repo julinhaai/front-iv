@@ -7,13 +7,13 @@
     <title>Ideias Vivas </title>
     <link rel="stylesheet" href="suporte.css" />
     <link rel="stylesheet" href="navbar.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
 
 </head>
 <body>
         <!--barra de navegação-->
     <nav class="header">
         <a href="#" class="logo"><img src="img/logo-branca-removebg.png" />Ideias Vivas</a>
-
         <input type="checkbox" id="check" />
         <label for="check" class="icons">
             <i class='bx bx-menu' id="menu-icon"></i>
