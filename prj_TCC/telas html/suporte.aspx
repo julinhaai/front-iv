@@ -6,79 +6,88 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Ideias Vivas </title>
     <link rel="stylesheet" href="suporte.css" />
-    <link
-        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    <link rel="stylesheet" href="navbar.css" />
 
-   
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            
+        <!--barra de navegação-->
+    <nav class="header">
+        <a href="#" class="logo"><img src="img/logo-branca-removebg.png" />Ideias Vivas</a>
 
-             <nav class="navbar">
+        <input type="checkbox" id="check" />
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
 
             <a href="inicio.aspx" style="--i:0;">Início</a>
             <a href="projetos.aspx" style="--i:1;">Projetos</a>
             <a href="suporte.aspx"style="--i:2;">Suporte</a>
-            <a href="suporte.aspx"style="--i:2;">Planos</a>
-            <a href="sobre.aspx" style="--i:3;"></a>
-            <asp:Button ID="btncadastro" runat="server" Text="Cadastre-se" OnClick="btncadastro_Click" />
-
+             <asp:Label ID="lblNomeUsuario" runat="server" Text=""></asp:Label>
+            <a href="cadastro.aspx" style="--i:5"class="btn-cadastro">Cadastre-se!</a>
         </nav>
-
-            <div class="wrapper">
-                <p> Tire suas dúvidas e contate-nos! </p>
-                <h1> Perguntas frequentes </h1>
-
-                
-
-             
-                <div class="accordion">
-
-                    <div>
-                        <input type="checkbox" name="pergunta_accordian" value="pergunta1" class="accordion__input" />
-                        <label for="pergunta1" class="accordion_label">Como saber se minha escola está no Ideias Vivas? </label>
-                        
-                          <div class="accordion__content">
-                             <p>
-                                 O Ideias Vivas é um site de divulgação de projetos e trabalhos voltados para a área de tecnologia. Ele foi desenvolvido para aumentar a visibilidade e as oportunidades geradas para os alunos após o término de seus trabalhos. 
-                             </p>
-                         </div>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="pergunta_accordion" value="pergunta2" class="accordion__input" />
-                        <label for="pergunta2" class="accordion_label">  Como cadastrar o meu projeto? </label>
-                         <div class="accordion__content">
-                             <p>
-                                 O Ideias Vivas é um site de divulgação de projetos e trabalhos voltados para a área de tecnologia. Ele foi desenvolvido para aumentar a visibilidade e as oportunidades geradas para os alunos após o término de seus trabalhos. 
-                             </p>
-                         </div> 
-                    </div>
-                    <div>
-                        <input type="checkbox" name="pergunta_accordion" value="pergunta3" class="accordion__input" />
-                        <label for="pergunta3" class="accordion_label">  Como entrar em contato com as equipes? </label>
-                          <div class="accordion__content">
-                             <p>
-                                 O Ideias Vivas é um site de divulgação de projetos e trabalhos voltados para a área de tecnologia. Ele foi desenvolvido para aumentar a visibilidade e as oportunidades geradas para os alunos após o término de seus trabalhos. 
-                             </p>
-                         </div>
-                    </div>
-                     <div>
-                        <input type="checkbox" name="pergunta_accordion" value="pergunta4" class="accordion__input" />
-                        <label for="pergunta4" class="accordion_label">     Como funciona o cadastro de escola? </label>
-
-                         <div class="accordion__content">
-                             <p>
-                                 O Ideias Vivas é um site de divulgação de projetos e trabalhos voltados para a área de tecnologia. Ele foi desenvolvido para aumentar a visibilidade e as oportunidades geradas para os alunos após o término de seus trabalhos. 
-                             </p>
-                         </div>
-
-                        
-                    </div>
-                    
+    </nav>
+    <!-- fim barra de navegação-->
+    <!--início sessão suporte-->
+        <section class="suporte">
+            <div class="container">
+                <h2>Suporte - perguntas frequentes</h2>
+                <div class="suporte-wrapper">
+                     <div class="accordion-box">
+                        <ul id="accordion">
+                             <li>
+                                 <label for="first">Pergunta 1<span>&#x3e</span></label>
+                                <input type="radio" name="accordion" id="first" />
+                                 <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
+                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
+                                </div>
+                             </li>
+                             <li>
+                                 <label for="second">Pergunta 1<span>&#x3e</span></label>
+                                 <input type="radio" name="accordion" id="second"  />
+                                 <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
+                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="third">Pergunta 1<span>&#x3e</span></label>
+                                <input type="radio" name="accordion" id="third"  />
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
+                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
+                               </div>
+                           </li>
+                            <li>
+                                <label for="fourth">Pergunta 1<span>&#x3e</span></label>
+                                <input type="radio" name="accordion" id="fourth"/>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
+                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
+                                </div>
+                             </li>
+                       </ul>
+                   </div>
+                <div class="suporte-form">
+                    <h3>Alguma dúvida em específico? Nos contate!</h3>
+                       <form id="form1" runat="server">
+                           <div class="form-group">
+                               <asp:TextBox ID="txtNome" runat="server" placeholder="Seu Nome"></asp:TextBox>
+                           </div>
+                           <div class="form-group">
+                               <asp:TextBox ID="txtEmail" runat="server" placeholder="Seu E-mail"></asp:TextBox>
+                           </div>
+                           <div class="form-group">
+                               <textarea name="mensagem" placeholder="Sua dúvida"></textarea>
+                           </div>
+                           <asp:Button ID="btnForm" runat="server" Text="Enviar dúvida" />
+                       </form>
                 </div>
-                
-    </form>
+               </div>
+            </div>
+      </section>
 </body>
 </html>

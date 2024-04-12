@@ -5,46 +5,57 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-   
-    background-position: center;
-    background-attachment: fixed;
 }
 
 
-
-.accordion {
-    max-width: 400px;
-    box-shadow: 0 0 10px #00000;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: 'regular', outfit;
-    background-color: #C15BFF
+#accordion{
+    margin: 100px auto;
+    width: 600px;
 }
 
-
-.accordion__label,
-.accordion__content
-{
-    padding: 14px 20px;
-
+#accordion li{
+    list-style:none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: rgba(250, 244,244, 50%);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(250, 244,244, 60%);
 }
 
-.accordion__label {
-    display: block;
-    color: #6E1A8F;
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
     cursor: pointer;
-    position: relative;
-    transition: background 0.1s;
+    color: #6E1A8F;
 }
 
-.accordion__label:hover {
-        background: #000000(0, 0, 0, 0.1);
- }
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #C15BFF;
+}
 
-    .accordion__label::after {
-        content: **;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 20px;
-    }
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .content{
+    padding: 0  10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s;
+}
+
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+
+.suporte-wrapper{
+    display: flex;
+}
