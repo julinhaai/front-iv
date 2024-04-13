@@ -11,6 +11,19 @@
     padding: 50px 0;
     display:flex;
     width: auto;
+    text-align: center
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.suporte-header h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #6e1a8f;
 }
 
 #accordion{
@@ -75,8 +88,37 @@
     border-radius: 20px;
 }
 
-.suporte-header h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #6e1a8f;
+.form-group {
+    margin-bottom: 20px; 
 }
+
+.form-group label {
+    display: block; 
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #6e1a8f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button[type="submit"]:hover {
+        background-color: #5b1471;
+    }
