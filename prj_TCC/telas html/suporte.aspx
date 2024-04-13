@@ -32,9 +32,11 @@
     <!-- fim barra de navegação-->
     <!--início sessão suporte-->
         <section class="suporte">
+            <div class="suporter-header">
+             <h2>Suporte - perguntas frequentes</h2>
+            </div>
             <div class="container">
-                <h2>Suporte - perguntas frequentes</h2>
-                <div class="suporte-wrapper">
+                <!--início accordion-->
                      <div class="accordion-box">
                         <ul id="accordion">
                              <li>
@@ -71,23 +73,28 @@
                              </li>
                        </ul>
                    </div>
-                <div class="suporte-form">
-                    <h3>Alguma dúvida em específico? Nos contate!</h3>
-                       <form id="form1" runat="server">
-                           <div class="form-group">
-                               <asp:TextBox ID="txtNome" runat="server" placeholder="Seu Nome"></asp:TextBox>
-                           </div>
-                           <div class="form-group">
-                               <asp:TextBox ID="txtEmail" runat="server" placeholder="Seu E-mail"></asp:TextBox>
-                           </div>
-                           <div class="form-group">
-                               <textarea name="mensagem" placeholder="Sua dúvida"></textarea>
-                           </div>
-                           <asp:Button ID="btnForm" runat="server" Text="Enviar dúvida" />
-                       </form>
-                </div>
+                <!-- fim accordion-->
+                <!-- início formulário-->
+                <div class="form">
+                          <h2>Entre em Contato</h2>
+                          <form action="#" method="post">
+                            <div class="form-group">
+                              <label for="nome">Nome:</label>
+                              <input type="text" id="nome" name="nome" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="email">E-mail:</label>
+                              <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="mensagem">Mensagem:</label>
+                              <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                            </div>
+                            <button type="submit">Enviar</button>
+                          </form>
+                        </div>
+                <!--fim formulário-->
                </div>
-            </div>
       </section>
 </body>
 </html>
