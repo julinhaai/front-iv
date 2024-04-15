@@ -15,7 +15,7 @@
     <form id="form1" runat="server">
 
     <!--barra de navegação-->
-    <header class="header">
+    <nav class="header">
         <a href="#" class="logo"><img src="img/logo-branca-removebg.png" />Ideias Vivas</a>
 
         <input type="checkbox" id="check" />
@@ -32,7 +32,7 @@
              <asp:Label ID="lblNomeUsuario" runat="server" Text=""></asp:Label>
             <a href="cadastro.aspx" style="--i:5"class="btn-cadastro">Cadastre-se!</a>
         </nav>
-    </header>
+    </nav>
     <!-- fim barra de navegação-->
     <!-- inicio pagina principal-->
        

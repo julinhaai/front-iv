@@ -7,57 +7,123 @@
     <title>Ideias Vivas</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel ="stylesheet" type="text/css" href="projetos.css" />
+    <link rel="stylesheet" type="text/css" href="navbar.css" />
     <script src='script.js'></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <!--parte de projetos-->
-    <div class="container">
-        <form class="filter" id="form1">
-            <div class="item">
-                <label for="">Ano</label>
-                <select name="ano">
-                    <option value="">----</option>
-                    <option value="2024">2024</option>
-                    <option value="2023">2023</option>
-                    <option value="2022">2022</option>
-                    <option value="2021">2021</option>
-                </select>
+     <!--barra de navegação-->
+    <nav class="header">
+        <a href="#" class="logo"><img src="img/logo-branca-removebg.png" />Ideias Vivas</a>
+
+        <input type="checkbox" id="check" />
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+
+            <a href="inicio.aspx" style="--i:0;">Início</a>
+            <a href="projetos.aspx" style="--i:1;">Projetos</a>
+            <a href="suporte.aspx"style="--i:2;">Suporte</a>
+             <asp:Label ID="lblNomeUsuario" runat="server" Text=""></asp:Label>
+            <a href="cadastro.aspx" style="--i:5"class="btn-cadastro">Cadastre-se!</a>
+        </nav>
+    </nav>
+    <!-- fim barra de navegação-->
+    <!--área de projetos-->
+    <div class="projetos">
+
+    </div>
+    <div class="sidebar">
+    <h2>Barra Lateral</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="content">
+    <div class="card-container">
+        <div class="card">
+            <img src="img/img-home-1.jpg" />
+            <div class="card-content">
+                <h1>Sportech</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
             </div>
-            <div class="item">
-                <label for="">Cursos</label>
-                <select name="cursos">
-                    <option value="">----</option>
-                    <option value="informatica">Informática</option>
-                    <option value="eletronica">Eletrônica</option>
-                    <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
-                    <option value="DJ">Desenvolvimento de Jogos</option>
-                </select>
-            </div>
-            <div class="item">
-                <label for="">Temas</label>
-                <select name="temas">
-                    <option value="">----</option>
-                    <option value="educacao">Educação</option>
-                    <option value="saude">Saúde</option>
-                    <option value="financas">Finanças</option>
-                    <option value="cultura">Cultura</option>
-                </select>
-            </div>
-            <div class="item">
-                <input type="text" name="nome" placeholder="Pesquisar" />
-            </div>
-            <div class="item-submit">
-              <button>Procurar</button>
-            </div>
-        </form>
-        <div class="countResults">
-            Foram encontrados <b id="count">5</b> Resultados
         </div>
-        <div id="list">
-           <div class="item"></div>
+        <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>Turisantos</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/img-home-1.jpg" />
+            <div class="card-content">
+                <h1>STUDY</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet. </p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/img-home-1.jpg" />
+            <div class="card-content">
+                <h1>Trade Wear</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>SmartMirror</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+         <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>SmartMirror</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+         <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>SmartMirror</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+         <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>SmartMirror</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
         </div>
     </div>
-<script src="projetos.js"></script>
+  </div>
+
 </body>
 </html>
