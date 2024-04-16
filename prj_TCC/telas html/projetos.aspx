@@ -37,15 +37,28 @@
 
     </div>
     <div class="sidebar">
-    <h2>Barra Lateral</h2>
-    <nav>
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
-      </ul>
-    </nav>
+    <h1>Nossos Projetos!</h1>
+    <div class="filtro">
+    <h2>Pesquisa</h2>
+        <!--começo filtro-->
+        <div class="filtro-dropdown">
+        <div class="dropdown">
+            <div class="dropdown-text">
+                <span>Tudo</span>
+                <i class='bx bx-chevron-down'></i>
+            </div>
+              <!--categoria: temas-->
+              <ul class="dropdown-list">
+                  <li class="dropdown-list-item">Tudo</li>
+                  <li class="dropdown-list-item">Seguranca</li>
+                  <li class="dropdown-list-item">Educação</li>
+                  <li class="dropdown-list-item">Comunidade</li>
+                  <li class="dropdown-list-item">Esporte</li>
+              </ul>
+        </div>
+        </div>
+        <!--fim filtro-->
+    </div>
   </div>
 
   <div class="content">
@@ -98,7 +111,7 @@
          <div class="card">
             <img src="img/img-home-2.jpg" />
             <div class="card-content">
-                <h1>SmartMirror</h1>
+                <h1>É golpe!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
                 <a href="#" class="card-button">Saiba Mais</a>
@@ -107,7 +120,7 @@
          <div class="card">
             <img src="img/img-home-2.jpg" />
             <div class="card-content">
-                <h1>SmartMirror</h1>
+                <h1>ProAnswers</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
                 <a href="#" class="card-button">Saiba Mais</a>
@@ -116,7 +129,7 @@
          <div class="card">
             <img src="img/img-home-2.jpg" />
             <div class="card-content">
-                <h1>SmartMirror</h1>
+                <h1>Strucktur</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
                 <a href="#" class="card-button">Saiba Mais</a>
