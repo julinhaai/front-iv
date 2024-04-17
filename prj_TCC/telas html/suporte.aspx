@@ -30,71 +30,62 @@
         </nav>
     </nav>
     <!-- fim barra de navegação-->
-    <!--início sessão suporte-->
-        <section class="suporte">
-            <div class="suporter-header">
-             <h2>Suporte - perguntas frequentes</h2>
-            </div>
-            <div class="container">
+    <!--início suporte-->
+    <section class="suporte">
+        <div class="suporte-header">
+            <h2>Suporte</h2>
+            <p>Aqui, você encontra as principais dúvidas em relação
+            ao Ideias Vivas e pode nos contatar a respeito de qualquer dúvida!</p>
+        </div>
+        <div class="container">
+            <div class="accordion">
                 <!--início accordion-->
-                     <div class="accordion-box">
-                        <ul id="accordion">
-                             <li>
-                                 <label for="first">Pergunta 1<span>&#x3e</span></label>
-                                <input type="radio" name="accordion" id="first" />
-                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
-                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
-                                </div>
-                             </li>
-                             <li>
-                                 <label for="second">Pergunta 1<span>&#x3e</span></label>
-                                 <input type="radio" name="accordion" id="second"  />
-                                 <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
-                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <label for="third">Pergunta 1<span>&#x3e</span></label>
-                                <input type="radio" name="accordion" id="third"  />
-                                <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
-                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
-                               </div>
-                           </li>
-                            <li>
-                                <label for="fourth">Pergunta 1<span>&#x3e</span></label>
-                                <input type="radio" name="accordion" id="fourth"/>
-                                <div class="content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor felis quis neque faucibus pulvinar. 
-                                Praesent faucibus, erat at semper cursus, urna turpis porta velit, ut porttitor tortor dui quis.</p>
-                                </div>
-                             </li>
-                       </ul>
-                   </div>
-                <!-- fim accordion-->
-                <!-- início formulário-->
-                <div class="form">
-                          <h2>Entre em Contato</h2>
-                          <form action="#" method="post">
-                            <div class="form-group">
-                              <label for="nome">Nome:</label>
-                              <input type="text" id="nome" name="nome" required>
-                            </div>
-                            <div class="form-group">
-                              <label for="email">E-mail:</label>
-                              <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                              <label for="mensagem">Mensagem:</label>
-                              <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                            </div>
-                            <button type="submit">Enviar</button>
-                          </form>
+                <ul id="accordion">
+                    <li>
+                        <label for="first">Pergunta 1<span>&#x3e</span></label>
+                        <input type="radio" name="accordion" id="first" checked />
+                        <div class="content">
+                            <p>RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA
+                            RESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTA</p>
                         </div>
-                <!--fim formulário-->
-               </div>
-      </section>
+                    </li>
+                    <li>
+                        <label for="second">Pergunta 1<span>&#x3e</span></label>
+                        <input type="radio" name="accordion" id="second"  />
+                        <div class="content">
+                            <p>RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA
+                            RESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTA</p>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="third">Pergunta 1<span>&#x3e</span></label>
+                        <input type="radio" name="accordion" id="third"  />
+                        <div class="content">
+                            <p>RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA
+                            RESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTA</p>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="fourth">Pergunta 1<span>&#x3e</span></label>
+                        <input type="radio" name="accordion" id="fourth"  />
+                        <div class="content">
+                            <p>RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA RESPOSTA
+                            RESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTARESPOSTA</p>
+                        </div>
+                    </li>
+                </ul>
+                <!--fim accordion-->
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--fim suporte-->
 </body>
 </html>

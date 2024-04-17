@@ -8,39 +8,54 @@
 }
 
 .suporte{
-    padding: 50px 0;
-    display:flex;
-    width: auto;
-    text-align: center
-}
-
-.container {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
     display: flex;
-    flex-wrap: wrap; 
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.suporte-header h2 {
+.suporte .suporte-header{
+    max-width: 800px;
+    text-align: center;
+}
+
+.suporte .suporte-header h2{
     font-size: 36px;
-    margin-bottom: 40px;
-    color: #6e1a8f;
+    font-weight: 500;
+    color: #fff;
+}
+
+.suporte .suporte-header p{
+    font-weight: 300;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 #accordion{
-    width: 50%;
-    padding: 20px;
-    margin-right: 20px;
+    margin: 100px auto; 
+    width: 600px;
 }
 
 #accordion li{
-    list-style:none;
+    list-style: none;
     width: 100%;
     margin-bottom: 10px;
-    background: rgba(250, 244,244, 50%);
+    background: rgba(244, 250, 250, .5);
     padding: 10px;
+    border: 1px solid rgba(244, 250, 250, .6);
     border-radius: 20px;
-    border: 1px solid rgba(250, 244,244, 60%);
 }
+
 
 #accordion li label{
     padding: 10px;
@@ -50,13 +65,13 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    color: #6E1A8F;
+    color: #8a23ba;
 }
 
 #accordion li label span{
     transform: rotate(90deg);
     font-size: 22px;
-    color: #C15BFF;
+    color: #8a23ba;
 }
 
 #accordion label + input[type="radio"]{
@@ -64,61 +79,17 @@
 }
 
 #accordion .content{
-    padding: 0  10px;
-    line-height: 26px;
+    padding: 0 10px;
+    line-height:26px;
     max-height: 0;
     overflow: hidden;
     transition: max-height .5s;
 }
 
-#accordion label + input[type="radio"]:checked + .content{
+#accordion label + input[type="radio"]:checked .content{
     max-height: 400px;
 }
 
-.suporte-header{
-    margin-bottom: 40px;
-    text-align: center;
-
-}
-
-.form{
-    width: 50%;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px; 
-}
-
-.form-group label {
-    display: block; 
-    font-weight: bold;
-    margin-bottom: 5px; 
-}
 
 
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-}
 
-button[type="submit"] {
-    background-color: #6e1a8f;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-    button[type="submit"]:hover {
-        background-color: #5b1471;
-    }

@@ -18,11 +18,6 @@ body {
     width: 350px;
     height: 50%;
 }
-
-.sidebar h1{
-    font-size: 32px;
-    color: #470068;
-}
  .sidebar .filtro {
     position: fixed;
     left: 5em;
@@ -37,47 +32,6 @@ body {
 }
 
 
- .dropdown{
-     position: relative;
-     width: 90%;
-     border-radius: 50px;
-     border: 1px solid #ffff;
-     background-color: #0000;
-     /*LEMBRAR DE COLOCAR BOX-SHADOW*/
-     cursor: pointer;
- }
-
- .dropdown-text{
-     display: flex;
-     align-items: center;
-     justify-content:space-between;
-     font-size:1rem;
-     font-weight: 500;
-     color: #fff;
-     padding: 1rem 1.5rem;
- }
-
- .dropdown-list{
-     position: absolute;
-     top: 4rem;
-     left: 0;
-     width: 100%;
-     border-radius: 15px;
-     background-color: #ffff;
- }
-
- .dropdown-list-item{
-     font-size: .9rem;
-     font-weight: 500;
-     padding: 1rem 0 1rem 1.5rem;
-     cursor: pointer;
-     transition: margin-left .2s ease; /*, color .2s ease*/
- }
-
- .dropdown-list-item:hover{
-     margin-left: .5rem;
-     /*LEMBRAR DE TROCAR A COLOR PRA ROXO*/
- }
 
 .content {
     margin-left: 400px; 
@@ -89,7 +43,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin-top: 900px;
+    margin-top: 98em;
 }
 
 .card{

@@ -41,18 +41,101 @@
     <div class="filtro">
     <h2>Pesquisa</h2>
         <!--começo filtro-->
-            <select id="dropdownFilter" onchange="filterResults()">
-                <option value="All">Temas</option>
-                <option value="Option1">Educação</option>
-                <option value="Option2">Esporte</option>
-            </select>
+    <div class="container">
+        <select id="tema">
+            <option value="" selected>Selecione o tema</option>
+            <option value="educacao">Educação</option>
+            <option value="comunidade">Comunidade</option>
+            <option value="esportes">Esportes</option>
+        </select>
+
+        <select id="ano">
+            <option value="" selected>Selecione o ano</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select>
+
+        <input type="text" id="termo" placeholder="Digite o termo de pesquisa...">
+        <button onclick="filtrar()">Pesquisar</button>
+    </div>
         <!--fim filtro-->
     </div>
   </div>
 
   <div class="content">
-    <div class="card-container" id="cardContainer">
-       <!--cards adicionados aqui-->
+    <div class="card-container">
+        <div class="card">
+            <img src="img/img-home-1.jpg" />
+            <div class="card-content">
+                <h1>Sportech</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>Turisantos</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/img-home-1.jpg" />
+            <div class="card-content">
+                <h1>STUDY</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet. </p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/img-home-1.jpg" />
+            <div class="card-content">
+                <h1>Trade Wear</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>SmartMirror</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+         <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>É golpe!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+         <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>ProAnswers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
+         <div class="card">
+            <img src="img/img-home-2.jpg" />
+            <div class="card-content">
+                <h1>Strucktur</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Curabitur semper magna vel leo auctor, at mattis mi laoreet.</p>
+                <a href="#" class="card-button">Saiba Mais</a>
+            </div>
+        </div>
     </div>
   </div>
 
