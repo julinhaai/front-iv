@@ -92,7 +92,7 @@
   <ItemGroup>
     <Content Include="telas html\img\img-home-1.jpg" />
     <Content Include="telas html\img\img-home-2.jpg" />
-    <Content Include="telas html\aaaa.aspx" />
+    <Content Include="telas html\teste_projetos.aspx" />
     <Content Include="telas html\cadastro.aspx" />
     <Content Include="telas html\cadastro.css" />
     <Content Include="telas html\estilo.css" />
@@ -106,7 +106,6 @@
     <Content Include="telas html\minhaarea.aspx" />
     <Content Include="telas html\navbar.css" />
     <Content Include="telas html\projetos.css" />
-    <Content Include="telas html\projetos.js" />
     <Content Include="telas html\script.js" />
     <Content Include="telas html\projetos.aspx" />
     <Content Include="telas html\suporte.aspx" />
@@ -115,12 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="telas html\aaaa.aspx.cs">
-      <DependentUpon>aaaa.aspx</DependentUpon>
+    <Compile Include="telas html\teste_projetos.aspx.cs">
+      <DependentUpon>teste_projetos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="telas html\aaaa.aspx.designer.cs">
-      <DependentUpon>aaaa.aspx</DependentUpon>
+    <Compile Include="telas html\teste_projetos.aspx.designer.cs">
+      <DependentUpon>teste_projetos.aspx</DependentUpon>
     </Compile>
     <Compile Include="telas html\cadastro.aspx.cs">
       <DependentUpon>cadastro.aspx</DependentUpon>

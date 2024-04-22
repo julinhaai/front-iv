@@ -7,6 +7,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --cor-fundo: url('img/fundo-site.png') no-repeat cover fixed center;
+    --cor-branco: #fafaf4;
+    --cor-principal: #7209B7;
+    --cor-secundaria: #F72585;
+    --cor-cinza: #2633238;
+    --cor-vidro: rgba(250, 244, 244, .5);
+    --border-vidro: 1px solid rgba(250,244,244, .6);
+    --font-size: 16px;
+    --border-radius: 0.2em;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,10 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('img/fundo-site.png') no-repeat center;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: var(--cor-fundo);
 }
 
 .header {

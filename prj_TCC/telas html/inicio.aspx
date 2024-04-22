@@ -50,32 +50,66 @@
                 </p>
                 <a href="cadastro.aspx" class="btn-cta">Comece Agora!</a>
             </div>
-            <div class="image__container">
-               <img src="img/img-home-1.jpg" />
-               <img src="img/img-home-2.jpg" />
-                <div class="image__content">
-                    <ul>
-                        <li>Inicie sua jornada de inovação hoje!</li>
-                        <li>Transforme ideias em projetos reais. Participe!</li>
-                    </ul>
-                </div>
-            </div>
+            <!--início carrossel-->
+            <div class="card-responsive">
+            <div class="card">
+  <input type="radio" name="select" id="slide_1" checked>
+  <input type="radio" name="select" id="slide_2">
+  <input type="radio" name="select" id="slide_3">
+  <input type="checkbox" id="slideImg">
+
+  <div class="slider">
+    <label for="slide_1" class="slide slide_1"></label>
+    <label for="slide_2" class="slide slide_2"></label>
+    <label for="slide_3" class="slide slide_3"></label>
+  </div>
+
+  <div class="inner_part">
+    <label for="slideImg" class="img">
+      <img class="img_1" src="img/img-home-1.jpg">
+    </label>
+    <div class="content content_1">
+      <div class="title">Turisantos</div>
+      <div class="text">
+          Uma plataforma que busca reunir os pontos turísticos
+          de Santos em um mapa interativo, fornecendo praticidade1
+      </div>
+      <button>Saiba mais</button>
+    </div>
+  </div>
+
+  <div class="inner_part">
+    <label for="slideImg" class="img">
+      <img class="img_2" src="img/img=home-2.jpg">
+    </label>
+    <div class="content content_2">
+      <div class="title">Sportech</div>
+      <div class="text">
+            Procurando por programas de esporte em Santos? Venha conhecer o
+          Sportech, o site que abriga tudo relacionado a esportes na região!
+      </div>
+      <button>Saiba mais</button>
+    </div>
+  </div>
+
+  <div class="inner_part">
+    <label for="slideImg" class="img">
+      <img class="img_3" src="img/img-home-1.jpg">
+    </label>
+    <div class="content content_3">
+      <div class="title">STUDY</div>
+      <div class="text">Um ambiente para sanar as dúvidas a respeito dos
+          componentes curriculares do ensino técnico em Informática da ETEC.
+      </div>
+      <button>Saiba mais</button>
+    </div>
+  </div>
+</div>
+</div>
+
+            <!--fim carrossel-->
         </section>
-
     <!-- fim pagina principal-->
-    <!-- início nossos sucessos-->
-      
-    <!-- fim nossos sucessos-->
-    
-
-
-
-
-
-
-
-
-
         <script src="script.js"></script>
     </form>
 </body>
