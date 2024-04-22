@@ -18,6 +18,7 @@ body {
     width: 350px;
     height: 50%;
 }
+
  .sidebar .filtro {
     position: fixed;
     left: 5em;
@@ -31,19 +32,17 @@ body {
     padding: 20px;
 }
 
-
-
 .content {
-    margin-left: 400px; 
+    margin-left: 400px;
     padding: 20px;
 }
 
-.card-container{
+.cardContainer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin-top: 98em;
+    margin-top: 17em;
 }
 
 .card{
@@ -119,6 +118,7 @@ body {
         width: calc(50% - 20px);
     }
 }
+
 
 
 

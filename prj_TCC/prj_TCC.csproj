@@ -106,7 +106,6 @@
     <Content Include="telas html\minhaarea.aspx" />
     <Content Include="telas html\navbar.css" />
     <Content Include="telas html\projetos.css" />
-    <Content Include="telas html\projetos.js" />
     <Content Include="telas html\script.js" />
     <Content Include="telas html\projetos.aspx" />
     <Content Include="telas html\suporte.aspx" />
