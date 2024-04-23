@@ -40,6 +40,18 @@
     <!--começo filtro-->
     <h2>Pesquisa</h2>
     <div class="filtro">
+            <asp:DropDownList ID="ddlTema" runat="server" OnSelectedIndexChanged="ddlTema_SelectedIndexChanged">
+                <asp:ListItem Value="">Tema</asp:ListItem>
+                <asp:ListItem Value="educacao">Educação</asp:ListItem>
+                <asp:ListItem Value="comunidade">Comunidade</asp:ListItem>
+                <asp:ListItem Value="educacao">Esportes</asp:ListItem>
+                <asp:ListItem Value="tecnologia">Tecnologia</asp:ListItem>
+             </asp:DropDownList>
+            <asp:DropDownList ID="ddlAno" runat="server" OnSelectedIndexChanged="ddlAno_SelectedIndexChanged">
+                <asp:ListItem Value="">Ano</asp:ListItem>
+                <asp:ListItem Value="2024">2024</asp:ListItem>
+                <asp:ListItem Value="2023">2023</asp:ListItem>
+            </asp:DropDownList>
     </div>
         <!--fim filtro-->
     </div>

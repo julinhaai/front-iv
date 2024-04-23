@@ -19,6 +19,7 @@ body {
     height: 50%;
 }
 
+<<<<<<< HEAD
     .sidebar .filtro {
         position: fixed;
         left: 5em;
@@ -31,20 +32,36 @@ body {
         color: #fff;
         padding: 20px;
     }
-
-
+=======
+ .sidebar .filtro {
+    position: fixed;
+    left: 5em;
+    top: 12em;
+    width: 350px;
+    height: 50%;
+    background-color: rgba(250, 244, 244, .5);
+    border-radius: 20px;
+    border: 1px solid rgba(250,244,244, .6);
+    color: #fff;
+    padding: 20px;
+}
+>>>>>>> 1e378f7a84d7d8b970924b9aedde0189e10c2a4a
 
 .content {
     margin-left: 400px;
     padding: 20px;
 }
 
+<<<<<<< HEAD
 .card-container {
+=======
+.cardContainer{
+>>>>>>> 1e378f7a84d7d8b970924b9aedde0189e10c2a4a
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin-top: 98em;
+    margin-top: 17em;
 }
 
 .card {
@@ -120,6 +137,7 @@ body {
         width: calc(50% - 20px);
     }
 }
+
 
 
 
